@@ -1,0 +1,13 @@
+#terminal {
+	background-color: black;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 10px;
+	height: 500px;
+	overflow-y: auto;
+	border: 2px solid gray;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    overflow-y: hidden;
+}
