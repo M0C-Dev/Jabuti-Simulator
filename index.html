@@ -7,10 +7,23 @@
 </head>
 <body>
 	<h1>Jabuti Simulator!</h1>
+
+    <div id="meter-text"></div>
+    <div id="happiness-meter">
+        <div id="meter-fill"></div>
+      </div>
 	<div id="terminal">
         <span>Jabuti iniciado!</span><br>
-        <span>Versão 1.0.0</span><br>
+        <span>Versão </span><span style="color: blue">1.1.0</span><br>
         <span>Por SMK</span><br>
+        <span style="color: yellow">Dia 1, Semana 1</span><br>
+    </div>
+    <button id="config-button">Configurações</button>
+        <div id="config-menu" style="display: none;">
+        <h3>Mudar nome do jabuti:</h3>
+        <span style="color: red;">! Desativado temporariamente !</span><br>
+        <input type="text" id="jabuti-name-input">
+        <button id="jabuti-name-button" disabled>Mudar nome</button>
     </div>
 	
 	<script src="script.js"></script>
